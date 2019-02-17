@@ -16,6 +16,6 @@
 
 
 ```
-Learn <> Practice <> Drink Coffee <> Repeat
+Learn <> Practice <> Drink  Coffee <> Repeat
 
 ```
