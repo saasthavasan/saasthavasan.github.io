@@ -1,4 +1,2 @@
----
-layout: default
----
-#h1 The full site will be up soon.
+
+# h1 The full site will be up soon.
