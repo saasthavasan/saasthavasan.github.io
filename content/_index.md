@@ -69,10 +69,10 @@ sections:
       items:
         - title: Graduate Researcher
           company: University of California Santa Barbara
-          company_url: ''
+          company_url: 'https://seclab.cs.ucsb.edu/'
           location: Santa Barbara, California
           date_start: '2021-10-01'
-          date_end: 'https://seclab.cs.ucsb.edu/'
+          date_end: ''
           description: |2-
               Responsibilities include:
 
@@ -81,20 +81,18 @@ sections:
               * Deploying
         - title: Infosec Engineer
           company: Aspirify
-          
+          company_url: ''
           location: New Delhi, India
           date_start: '2020-12-01'
           date_end: '2021-07-31'
           description: Building modules for the read teaming framework.
-         
-         - title: Research Intern
+        - title: Research Intern
           company: University of California Santa Barbara
           company_url: 'https://seclab.cs.ucsb.edu/'
           location: Santa Barbara, California
           date_start: '2020-03-10'
-          date_end: '2029-09-31'
+          date_end: '2020-09-30'
           description: Designed novel malware post-detection framework to idenitfy capabilities in Windows malware.
-        
         - title: Student Researcher
           company: Amrita Vishwa Vidyapeetham
           company_url: 'https://bi0s.in/'
@@ -201,14 +199,6 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
   - block: collection
     id: talks
     content:
