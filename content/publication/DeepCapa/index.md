@@ -33,7 +33,6 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: (Under Review)
-# publication_short: In *ICW*
 
 # Summary. An optional shortened abstract.
 summary: DeepCapa is an automated post-detection framework that identifies and maps potentially malicious capabilities in malware to the code that implements these capabilities. It proposes a novel feature engineering approach that statically extracts API-call sequences from multiple memory snapshots taken during a sample’s dynamic execution. This approach allows for more comprehensive code coverage and effectively counters anti-sandbox techniques. Deepcapa also proposes a neural network architecture to not only accurately detects capabilities but also provide interpretable detections.
