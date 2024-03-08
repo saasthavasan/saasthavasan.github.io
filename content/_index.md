@@ -42,14 +42,6 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  # - block: skills
-  #   content:
-  #     title: Skills
-  #     text: ''
-  #     # Choose a user to display skills from (a folder name within `content/authors/`)
-  #     username: admin
-  #   design:
-  #     columns: '1'
   - block: collection
     content:
       title: Publications
@@ -62,6 +54,7 @@ sections:
     design:
       columns: '2'
       view: Compact
+
   - block: experience
     content:
       title: Experience
@@ -74,27 +67,42 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Graduate Researcher
+          company: University of California Santa Barbara
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Santa Barbara, California
+          date_start: '2021-10-01'
+          date_end: 'https://seclab.cs.ucsb.edu/'
           description: |2-
               Responsibilities include:
 
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        - title: Infosec Engineer
+          company: Aspirify
+          
+          location: New Delhi, India
+          date_start: '2020-12-01'
+          date_end: '2021-07-31'
+          description: Building modules for the read teaming framework.
+         
+         - title: Research Intern
+          company: University of California Santa Barbara
+          company_url: 'https://seclab.cs.ucsb.edu/'
+          location: Santa Barbara, California
+          date_start: '2020-03-10'
+          date_end: '2029-09-31'
+          description: Designed novel malware post-detection framework to idenitfy capabilities in Windows malware.
+        
+        - title: Student Researcher
+          company: Amrita Vishwa Vidyapeetham
+          company_url: 'https://bi0s.in/'
+          location: Kerala, India
+          date_start: '2016-12-01'
+          date_end: '2020-02-27'
+          description: Designed novel malware post-detection framework to idenitfy capabilities in Windows malware.
+
     design:
       columns: '2'
   - block: accomplishments
