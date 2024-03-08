@@ -37,6 +37,9 @@ publication: (Under Review)
 # Summary. An optional shortened abstract.
 summary: DeepCapa is an automated post-detection framework that identifies and maps potentially malicious capabilities in malware to the code that implements these capabilities. It proposes a novel feature engineering approach that statically extracts API-call sequences from multiple memory snapshots taken during a sample’s dynamic execution. This approach allows for more comprehensive code coverage and effectively counters anti-sandbox techniques. Deepcapa also proposes a neural network architecture to not only accurately detects capabilities but also provide interpretable detections.
 
+abstract: Malware detection and classification have been the focus of extensive research over many years. However, less effort has been devoted to developing post-detection systems that identify specific malicious capabilities (or behaviors) in malware.Such systems play a critical part in identifying and mitigating the damage caused by malware attacks. Unfortunately, current methods for identifying malware capabilities involve substantial manual reverse engineering efforts and context switching between multiple different tools, which slows down an investigation and gives attackers an advantage. <br> In this paper, we propose DeepCapa, an automated post-detection system that uses deep learning to identify potentially malicious capabilities in malware in the form of MITRE ATT\&CK techniques. Our system operates on sequences of API calls, statically extracted from the memory snapshots taken at key points during the execution of malware. Our results demonstrate that DeepCapa can accurately identify malicious capabilities,  achieving a precision of 95.80% and a recall of 93.76% across 29 different  MITRE ATT&CK techniques.
+
+
 tags: [Malware Analysis, AI, Neural Networks, Program Analysis]
 
 # Display this page in the Featured widget?
