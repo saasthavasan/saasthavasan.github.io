@@ -127,7 +127,7 @@ sections:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       items:
-        - title: Excellence Fellowship Award
+        - title: Academic Excellence Fellowship
           date_end: ''
           date_start: '2021-10-01'
           description: ''
