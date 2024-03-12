@@ -1,5 +1,5 @@
 ---
-title: "Malware Analysis1: Jigsaw Ransomware"
+title: "Malware Analysis 1: Jigsaw Ransomware"
 date: 2019-07-19
 math: true
 # image:
