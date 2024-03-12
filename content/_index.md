@@ -42,7 +42,9 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
   - block: collection
+    id: publications 
     content:
       title: Publications
       text: |-
@@ -56,6 +58,7 @@ sections:
       view: Compact
 
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -75,11 +78,9 @@ sections:
           date_end: ''
           company_logo: "ucsb"
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+                * Performing independent and collaborative research in malware analysis, threat intelligence, and LLMs for vulnerability assessment.
+                * Authoring academic papers and journals for top system security conferences.
+                * Participating in Capture The Flag (CTF) competitions as a member of team Shellphish
         - title: Infosec Engineer
           company: Aspirify Enterprises Pvt
           company_url: 'https://www.aspirify.net'
@@ -87,7 +88,11 @@ sections:
           date_start: '2020-12-01'
           date_end: '2021-07-31'
           company_logo: "aspirify"
-          description: Building modules for the read teaming framework.
+          description: |2-
+                * Collaborated with the in-house red team to develop and maintain a red teaming framework.
+                * Developed new modules to increase the attack surface, enhancing the effectiveness of red teaming efforts.
+                * Ensured the compatibility of existing modules and maintaining the effectiveness of the framework in an evolving threat landscape.
+                
         - title: Research Intern
           company: University of California Santa Barbara
           company_url: 'https://seclab.cs.ucsb.edu/'
@@ -95,7 +100,9 @@ sections:
           company_logo: "ucsb"
           date_start: '2020-03-10'
           date_end: '2020-09-30'
-          description: Designed novel malware post-detection framework to idenitfy capabilities in Windows malware.
+          description: |2-
+                * Designed and developed a novel malware post-detection framework that identifies potentially malicious capabilities in Windows malware, outperforming existing solutions by 20% in precision and 80% in recall.
+                * Reverse-engineered malware executables and mapped their attack implementations to the MITRE ATT&CK Framework.
         - title: Student Researcher
           company: Amrita Vishwa Vidyapeetham
           company_url: 'https://bi0s.in/'
@@ -103,10 +110,15 @@ sections:
           company_logo: "amrita"
           date_start: '2016-12-01'
           date_end: '2020-02-27'
-          description: Designed novel malware post-detection framework to idenitfy capabilities in Windows malware.
+          description: |2-
+                * Conducted malware analysis, documented results, and developed proof-of-concept attack methods.
+                * Fostered collaborative learning by teaching reverse engineering and malware analysis, promoting ongoing education.
+                * Participated actively in Capture The Flag (CTF) competitions as part of team bi0s
     design:
       columns: '2'
+
   - block: accomplishments
+    id: achievements
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       #title: 'Accomplish&shy;ments'
@@ -114,11 +126,6 @@ sections:
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Excellence Fellowship Award
           date_end: ''
@@ -150,9 +157,9 @@ sections:
           organization: Amrita Vishwa Vidyapeetham
           organization_url: https://www.amrita.edu
           url: ''
-          
     design:
       columns: '2'
+
   - block: collection
     id: posts
     content:
@@ -179,6 +186,13 @@ sections:
     design:
       # Choose a layout view
       view: compact
+      columns: '2'
+  - block: contact
+    id: contact
+    content:
+      title: Contact
+      email: saastha@ucsb.edu
+    design:
       columns: '2'
   # - block: portfolio
   #   id: projects
