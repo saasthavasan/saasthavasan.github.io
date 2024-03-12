@@ -42,14 +42,14 @@ header:
 
 # Site footer
 
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+# footer:
+#   copyright:
+#     notice: '© {year} Me. This work is licensed under {license}'
+#     license:
+#       enable: true
+#       allow_derivatives: false
+#       share_alike: true
+#       allow_commercial: false
 
 # Localization
 
@@ -69,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/saasthavasan/saasthavasan.github.io'
     content_dir: content
     branch: main
   avatar:
