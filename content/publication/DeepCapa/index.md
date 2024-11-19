@@ -21,6 +21,7 @@ title: 'DeepCapa: Identifying Malicious Capabilities in Windows Malware'
 #   - 'Equal contribution'
 
 date: '2024-12-14T00:00:00Z'
+publishDate: '2024-11-15T00:00:00Z'
 # doi: ''
 
 # Schedule page publish date (NOT publication's date).
