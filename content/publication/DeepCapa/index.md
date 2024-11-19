@@ -20,8 +20,8 @@ title: 'DeepCapa: Identifying Malicious Capabilities in Windows Malware'
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2024-11-14T00:00:00Z'
-publishDate: '2024-11-15T00:00:00Z'
+date: '2024-11-9T00:00:00Z'
+publishDate: '2024-11-12T00:00:00Z'
 # doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,7 @@ abstract: Malware detection and classification have been the focus of extensive 
 tags: [Malware Analysis, AI, Neural Networks, Program Analysis]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 ---
 
 
