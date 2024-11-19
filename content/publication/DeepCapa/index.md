@@ -20,7 +20,7 @@ title: 'DeepCapa: Identifying Malicious Capabilities in Windows Malware'
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2024-01-01T00:00:00Z'
+date: '2024-12-14T00:00:00Z'
 # doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -32,7 +32,8 @@ date: '2024-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: (Under Review)
+publication: The 40th Annual Computer Security Applications Conference
+publication_short: In ACSAC 2024
 
 # Summary. An optional shortened abstract.
 summary: DeepCapa is an automated post-detection framework that identifies and maps potentially malicious capabilities in malware to the code that implements these capabilities. It proposes a novel feature engineering approach that statically extracts API-call sequences from multiple memory snapshots taken during a sample’s dynamic execution. This approach allows for more comprehensive code coverage and effectively counters anti-sandbox techniques. Deepcapa also proposes a neural network architecture to not only accurately detects capabilities but also provide interpretable detections.
@@ -43,7 +44,7 @@ abstract: Malware detection and classification have been the focus of extensive 
 tags: [Malware Analysis, AI, Neural Networks, Program Analysis]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 ---
 
 
