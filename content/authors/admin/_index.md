@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role:  PhD student in Computer Science 
+role: AI Security Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -116,5 +116,5 @@ social:
 highlight_name: true
 ---
 
-I am a third-year PhD student at University of California, Santa Barbara. I am supervised by [Dr. Giovanni Vigna](https://sites.cs.ucsb.edu/~vigna/) and [Dr. Christopher Kruegel](https://sites.cs.ucsb.edu/~chris/). My research focuses on the intersection of machine learning and computer security, frequently integrating concepts from program analysis. My work aims to create novel frameworks that surpass current methodologies in the domains of malware analysis and vulnerability assessment.
+I am a PhD candidate at University of California, Santa Barbara, advised by [Prof. Giovanni Vigna](https://sites.cs.ucsb.edu/~vigna/) and [Prof. Christopher Kruegel](https://sites.cs.ucsb.edu/~chris/) (expected graduation July 2026). My research sits at the intersection of machine learning and computer security, with a focus on **malware analysis**, **reverse engineering**, and **ML-driven threat detection**. I build systems that translate security research into practical tools for malware investigation, cyber threat intelligence, and vulnerability analysis.
 {style="text-align: justify;"}
