@@ -70,6 +70,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Ph.D. Intern
+          company: Cisco Systems, Inc. (Talos Group)
+          company_url: 'https://blog.talosintelligence.com/'
+          location: Irvine, California
+          date_start: '2025-07-01'
+          date_end: '2025-09-30'
+          description: |2-
+                * Developed a large-scale .NET malware detection pipeline over 5M+ malicious and benign samples, achieving a 10% relative F1 improvement over prior academic baselines.
+                * Designed cross-platform XDR anomaly detection using Markov-chain process models and ancestry trees to identify anomalous execution patterns across macOS and Windows.
         - title: Graduate Researcher
           company: University of California Santa Barbara
           company_url: 'https://seclab.cs.ucsb.edu/'
@@ -78,9 +87,9 @@ sections:
           date_end: ''
           company_logo: "ucsb"
           description: |2-
-                * Performing independent and collaborative research in malware analysis, threat intelligence, and LLMs for vulnerability assessment.
-                * Authoring academic papers and journals for top system security conferences.
-                * Participating in Capture The Flag (CTF) competitions as a member of team Shellphish
+                * Led research on MalwarePT, a binary-level foundation model for malware analysis, covering pretraining, downstream evaluation, and robustness analysis.
+                * Built ML/LLM pipelines that map malware behavior to malicious capabilities, convert attack evidence into CTI, and support automated vulnerability root-cause analysis.
+                * Participating in Capture The Flag (CTF) competitions as a member of team Shellphish.
         - title: Infosec Engineer
           company: Aspirify Enterprises Pvt
           company_url: 'https://www.aspirify.net'
@@ -89,9 +98,8 @@ sections:
           date_end: '2021-07-31'
           company_logo: "aspirify"
           description: |2-
-                * Collaborated with the in-house red team to develop and maintain a red teaming framework.
-                * Developed new modules to increase the attack surface, enhancing the effectiveness of red teaming efforts.
-                * Ensured the compatibility of existing modules and maintaining the effectiveness of the framework in an evolving threat landscape.
+                * Built red-team assessment modules for RCE, lateral movement, and N-day vulnerability simulation using C, C++, C#, and Python.
+                * Built modular exploit payloads and post-exploitation scripts that expanded the red-team framework's coverage for enterprise assessments.
                 
         - title: Research Intern
           company: University of California Santa Barbara
@@ -127,6 +135,20 @@ sections:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       items:
+        - title: DARPA AI Cyber Challenge (AIxCC) — Team Shellphish, Top-7 Semi-Final Finish, $2M Award
+          date_end: '2025-12-31'
+          date_start: '2023-01-01'
+          description: 'Core member of Team Shellphish during the DARPA AIxCC effort; contributed to automated root-cause analysis and vulnerability patching systems. The team secured a top-7 semi-final finish, won $2 million, and advanced to the finals.'
+          organization: DARPA
+          organization_url: https://aicyberchallenge.com/
+          url: 'https://aicyberchallenge.com/'
+        - title: Co-Chair, NSF-funded ACTION Institute Student Executive Council
+          date_end: ''
+          date_start: '2023-01-01'
+          description: 'Lead internship recruitment, coordinate guest speaker sessions, foster research collaborations across 11 universities, and drive outreach programs introducing AI and security to high school students.'
+          organization: NSF ACTION Institute
+          organization_url: https://action.ucsb.edu/
+          url: 'https://action.ucsb.edu/people/saastha-vasan'
         - title: Academic Excellence Fellowship
           date_end: ''
           date_start: '2021-10-01'
